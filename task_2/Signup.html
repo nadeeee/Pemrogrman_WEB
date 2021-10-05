@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-in-container">
+            <form method="GET" action="home.html">
+
+                <h1>Student Registration Form</h1>    
+                <br>
+                
+                <input id="fname" type="text" placeholder="First Name" name="fname" required>
+
+                <input id="lname" type="text" placeholder="Last Name" name="lname" required>
+
+                <select required>
+                    <option value="" disabled selected>Select your Course</option>
+                    <optgroup label="Front-End">
+                        <option value="HTML & CSS Fundamentals">HTML & CSS Fundamentals</option>
+                        <option value="Get started with Bootstrap">Get started with Bootstrap</option>
+                        <option value="ES6 Fundamentals">ES6 Fundamentals</option>
+                    </optgroup>
+                    <optgroup label="Back-End">
+                        <option value="Laravel">Laravel</option>
+                        <option value="Node.JS">Node.JS</option>
+                        <option value="Django">Django</option>
+                    </optgroup>
+
+                </select>
+
+                <input id="Address" type="text" placeholder="Address" name="Address" required>
+
+                <input type="number" name="phone" id="phone" placeholder="Your phone number" class="form-control" required/>
+                
+                <input id="email" type="email" placeholder="Email" name="email" required>
+
+                <input id="password" type="password" placeholder="Password" required>
+
+                <a href="#">Need Help ?</a>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel">
+                    <h1>Nevoir <br> School</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>
+            Created with <i class="fa fa-heart"></i> by
+            <a target="_blank" href="https://www.instagram.com/aurigaf/">auriga</a>
+        </p>
+    </footer>
+</body>
+</html>
