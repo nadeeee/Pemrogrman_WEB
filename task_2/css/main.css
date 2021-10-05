@@ -127,7 +127,6 @@ input::-webkit-inner-spin-button {
 	width: 50%;
 	height: 100%;
 	overflow: hidden;
-	transition: transform 0.6s ease-in-out;
 	z-index: 100;
 }
 

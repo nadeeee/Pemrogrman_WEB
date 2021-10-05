@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
 body {
-    font-family: 'lato', sans-serif;
+  font-family: 'lato', sans-serif;
   }
   
   .container {
@@ -34,7 +36,7 @@ body {
   }
   
   .responsive-table .table-header {
-    background-color: #95A5A6;
+    background-color: #29fc99;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
