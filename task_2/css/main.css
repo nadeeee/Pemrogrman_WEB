@@ -103,6 +103,8 @@ input::-webkit-inner-spin-button {
 	width: 920px;
 	max-width: 100%;
 	min-height: 620px;
+	margin-top: 60px;
+	margin-bottom: auto;
 }
 
 .form-container {
@@ -151,6 +153,10 @@ input::-webkit-inner-spin-button {
 	width: 50%;
 	right: 0;
 }
+ .overlay-panel:hover{
+	font-size: 40px;
+	transition: all 1s ease;
+ }
 
 footer {
     background-color: #222;
